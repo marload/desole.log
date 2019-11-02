@@ -1,6 +1,6 @@
 ![logo](/image/desolelog.png)
 
-Pretty console for debug
+Don't waste time on debugging! You can easily debugging. Make your code easy to see with easy read desk.log. desole.log is a module that makes the Pretty Console possible.
 
 ## Installation
 

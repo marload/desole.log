@@ -88,7 +88,7 @@ const setParse = data => {
     };
 };
 
-const weakSet = data => {
+const weakSetParse = data => {
     return {
         type: "WeakSet",
         data: {
@@ -225,8 +225,9 @@ const objectParse = data => {
 };
 
 const whatIs = data => {
-    if (data === null) return "null";
-    else if (data === undefined) return "undefined";
+    if (data === null) {
+        return "null";
+    } else if (data === undefined) return "undefined";
     else if (typeof data === "number") return "number";
     else if (typeof data === "string") return "string";
     else if (typeof data === "boolean") return "boolean";
@@ -249,6 +250,32 @@ const whatIs = data => {
     else return "object";
 };
 
+const parseOf = {
+    undefined: undefinedParse,
+    number: numberParse,
+    string: stringParse,
+    boolean: booleanParse,
+    function: functionParse,
+    date: dateParse,
+    array: arrayParse,
+    set: setParse,
+    weakset: weakSetParse,
+    map: mapParse,
+    weakmap: weakMapParse,
+    int8array: int8arrayParse,
+    uint8array: uint8arrayParse,
+    uint8clampedarray: uint8clampedArrayParse,
+    int16array: int16arrayParse,
+    uint16array: uint16arrayParse,
+    int32array: int32arrayParse,
+    uint32array: uint32arrayParse,
+    float32array: float32arrayParse,
+    float64array: float64arrayParse
+};
+
 const parse = data => {
     const type = whatIs(data);
+    return parseOf(type);
 };
+
+exports.parse = parse;

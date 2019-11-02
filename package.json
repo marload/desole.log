@@ -1,5 +1,5 @@
 {
-    "name": "desole",
+    "name": "desole.log",
     "version": "0.0.1-dev",
     "description": "Pretty console for debugging",
     "main": "lib/app.js",

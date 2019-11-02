@@ -1,4 +1,4 @@
-# desole
+# desole.log
 
 Pretty console for debug
 

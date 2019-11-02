@@ -8,15 +8,17 @@ const twoColumnFormat = (nameC1, valueC1, nameC2, valueC2) => {
     const valueSize = 39 - 2 - 10;
     let formatString = "";
 
-    formatString += "│";
-    formatString += fitStringSize(` ${nameC1}`, indexSize);
-    formatString += "│";
-    formatString += fitStringSize(` ${valueC1}`, valueSize);
-    formatString += "│";
-    formatString += fitStringSize(` ${nameC2}`, indexSize);
-    formatString += "│";
-    formatString += fitStringSize(` ${valueC2}`, valueSize);
-    formatString += "│";
+    formatString.concat(
+        "│",
+        fitStringSize(` ${nameC1}`, indexSize),
+        "│",
+        fitStringSize(` ${valueC1}`, valueSize),
+        "│",
+        fitStringSize(` ${nameC2}`, indexSize),
+        "│",
+        fitStringSize(` ${valueC2}`, valueSize);
+        "│",
+    )
     return formatString;
 };
 

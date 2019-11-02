@@ -1,18 +1,24 @@
 {
-  "name": "desole",
-  "version": "1.0.0",
-  "description": "Pretty console for debugging",
-  "main": "src/app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "github.com/olramde/desole"
-  },
-  "keywords": [
-    "console"
-  ],
-  "author": "olramde",
-  "license": "ISC"
+    "name": "desole",
+    "version": "0.0.1-dev",
+    "description": "Pretty console for debugging",
+    "main": "lib/app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "github.com/olramde/desole"
+    },
+    "keywords": [
+        "console",
+        "pretty",
+        "debugging",
+        "node",
+        "browser",
+        "print"
+    ],
+    "author": "olramde",
+    "homepage": "https://github.com/olramde/desole",
+    "license": "MIT"
 }

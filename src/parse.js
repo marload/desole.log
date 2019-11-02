@@ -275,7 +275,7 @@ const parseOf = {
 
 const parse = data => {
     const type = whatIs(data);
-    return parseOf(type);
+    return parseOf[type](data);
 };
 
-exports.parse = parse;
+module.exports = parse;

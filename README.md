@@ -10,7 +10,7 @@ npm install desole // It doesn't work yet
 
 ## Examples
 
-```
+```javascript
 const desole = require("desole");
 
 desole.log(42);

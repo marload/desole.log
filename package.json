@@ -1,6 +1,6 @@
 {
     "name": "desole.log",
-    "version": "0.0.2-dev",
+    "version": "0.0.3-dev",
     "description": "Pretty console for debugging",
     "main": "lib/app.js",
     "scripts": {

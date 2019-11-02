@@ -1,4 +1,4 @@
-# desole.log
+![logo](/image/desolelog.png)
 
 Pretty console for debug
 
@@ -14,10 +14,10 @@ npm install desole.log // It doesn't work yet
 const desole = require("desole.log");
 
 desole.log(42);
-desole.log("Hello DeSOLE!);
+desole.log("Hello desole.log!);
 desole.log([1, 2, 3]);
 desole.log(() => {
-    console.log("Hello Desole!);
+    console.log("Hello desole.log!);
 })
 ```
 

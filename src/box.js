@@ -16,9 +16,9 @@ const twoColumnFormat = (nameC1, valueC1, nameC2, valueC2) => {
         "│",
         fitStringSize(` ${nameC2}`, indexSize),
         "│",
-        fitStringSize(` ${valueC2}`, valueSize);
-        "│",
-    )
+        fitStringSize(` ${valueC2}`, valueSize),
+        "│"
+    );
     return formatString;
 };
 

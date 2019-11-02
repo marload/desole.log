@@ -5,13 +5,13 @@ Pretty console for debug
 ## Installation
 
 ```
-npm install desole // It doesn't work yet
+npm install desole.log // It doesn't work yet
 ```
 
 ## Examples
 
 ```javascript
-const desole = require("desole");
+const desole = require("desole.log");
 
 desole.log(42);
 desole.log("Hello DeSOLE!);

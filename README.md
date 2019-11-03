@@ -44,7 +44,7 @@ desole.log(() => {
 -   Float32Array
 -   Float64Array
 
-Comming Soon Data Types
+## Comming Soon Data Types
 
 -   Mongoose Document
 -   Sequelize Document
@@ -52,4 +52,4 @@ Comming Soon Data Types
 
 ## License
 
-Desole is MIT licensed.
+desole.log is MIT licensed.
